@@ -14,7 +14,7 @@
 		36746C1418A1AA650068C18C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36746C1318A1AA650068C18C /* main.m */; };
 		36746C1818A1AA650068C18C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36746C1718A1AA650068C18C /* AppDelegate.m */; };
 		36746C1B18A1AA650068C18C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36746C1918A1AA650068C18C /* Main.storyboard */; };
-		36746C1E18A1AA650068C18C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36746C1D18A1AA650068C18C /* FirstViewController.m */; };
+		36746C1E18A1AA650068C18C /* CurrentLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36746C1D18A1AA650068C18C /* CurrentLocationViewController.m */; };
 		36746C2118A1AA650068C18C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36746C2018A1AA650068C18C /* SecondViewController.m */; };
 		36746C2318A1AA650068C18C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36746C2218A1AA650068C18C /* Images.xcassets */; };
 		36746C2A18A1AA650068C18C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36746C2918A1AA650068C18C /* XCTest.framework */; };
@@ -46,8 +46,8 @@
 		36746C1618A1AA650068C18C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		36746C1718A1AA650068C18C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		36746C1A18A1AA650068C18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		36746C1C18A1AA650068C18C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		36746C1D18A1AA650068C18C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		36746C1C18A1AA650068C18C /* CurrentLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrentLocationViewController.h; sourceTree = "<group>"; };
+		36746C1D18A1AA650068C18C /* CurrentLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentLocationViewController.m; sourceTree = "<group>"; };
 		36746C1F18A1AA650068C18C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		36746C2018A1AA650068C18C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		36746C2218A1AA650068C18C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -118,8 +118,8 @@
 				36746C1618A1AA650068C18C /* AppDelegate.h */,
 				36746C1718A1AA650068C18C /* AppDelegate.m */,
 				36746C1918A1AA650068C18C /* Main.storyboard */,
-				36746C1C18A1AA650068C18C /* FirstViewController.h */,
-				36746C1D18A1AA650068C18C /* FirstViewController.m */,
+				36746C1C18A1AA650068C18C /* CurrentLocationViewController.h */,
+				36746C1D18A1AA650068C18C /* CurrentLocationViewController.m */,
 				36746C1F18A1AA650068C18C /* SecondViewController.h */,
 				36746C2018A1AA650068C18C /* SecondViewController.m */,
 				36746C2218A1AA650068C18C /* Images.xcassets */,
@@ -256,7 +256,7 @@
 			files = (
 				36746C2118A1AA650068C18C /* SecondViewController.m in Sources */,
 				36746C1818A1AA650068C18C /* AppDelegate.m in Sources */,
-				36746C1E18A1AA650068C18C /* FirstViewController.m in Sources */,
+				36746C1E18A1AA650068C18C /* CurrentLocationViewController.m in Sources */,
 				36746C1418A1AA650068C18C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
