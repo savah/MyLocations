@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface CurrentLocationViewController : UIViewController
+@interface CurrentLocationViewController : UIViewController <CLLocationManagerDelegate>
 
 @property (nonatomic, weak) IBOutlet UILabel *messageLabel;
 @property (nonatomic, weak) IBOutlet UILabel *latitudeLabel;

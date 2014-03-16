@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		366D19DF18D60CF30085C1AD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366D19DE18D60CF30085C1AD /* CoreLocation.framework */; };
 		36746C0818A1AA650068C18C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36746C0718A1AA650068C18C /* Foundation.framework */; };
 		36746C0A18A1AA650068C18C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36746C0918A1AA650068C18C /* CoreGraphics.framework */; };
 		36746C0C18A1AA650068C18C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36746C0B18A1AA650068C18C /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		366D19DE18D60CF30085C1AD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		36746C0418A1AA650068C18C /* MyLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36746C0718A1AA650068C18C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36746C0918A1AA650068C18C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				366D19DF18D60CF30085C1AD /* CoreLocation.framework in Frameworks */,
 				36746C0A18A1AA650068C18C /* CoreGraphics.framework in Frameworks */,
 				36746C0C18A1AA650068C18C /* UIKit.framework in Frameworks */,
 				36746C0818A1AA650068C18C /* Foundation.framework in Frameworks */,
@@ -104,6 +107,7 @@
 		36746C0618A1AA650068C18C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				366D19DE18D60CF30085C1AD /* CoreLocation.framework */,
 				36746C0718A1AA650068C18C /* Foundation.framework */,
 				36746C0918A1AA650068C18C /* CoreGraphics.framework */,
 				36746C0B18A1AA650068C18C /* UIKit.framework */,
@@ -466,6 +470,7 @@
 				36746C3B18A1AA650068C18C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36746C3C18A1AA650068C18C /* Build configuration list for PBXNativeTarget "MyLocationsTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +479,7 @@
 				36746C3E18A1AA650068C18C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
