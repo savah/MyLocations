@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreLocation/CoreLocation.h>
+#import <CoreLocation/CoreLocation.h> //import core location header to make this view controller conform to the CLLocationManager protocol.
 
 @interface CurrentLocationViewController : UIViewController <CLLocationManagerDelegate>
 
